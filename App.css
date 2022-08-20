@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Supercell;
+  src: url(./resources/Supercell-magic-webfont.ttf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+ background-color: #0F1B60;
+ margin: 0;
+ height: 941px;
+ font-family: Supercell;
+ font-size: calc(.4em + 1vw);
+}
+
+.MainApp {
+  background-color: #25267B;
+  width: 55%;
+  height: 869px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*font-size: calc(.3em + 1vw);*/

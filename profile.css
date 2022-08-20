@@ -1,0 +1,114 @@
+.topwrapper {
+  background-color: #141659;
+  box-sizing: border-box;
+}
+
+.left {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.clanIcon {
+  width: 3.7em;
+  margin: 1em;
+  margin-right: 0.7em;
+}
+
+.profileName {
+  color: #98a7ff;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.profileTag {
+  color: #333e7c;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 0.2em;
+}
+
+.level {
+  margin-top: -1.1em;
+  padding-left: 0.3em;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 2em;
+}
+
+.trophy {
+  width: 3.2em;
+  margin-right: 0.7em;
+}
+
+.trophies {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: #98a7ff;
+}
+
+.mainstats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+  background-color: #3c4da8;
+  border-radius: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  max-width: 53em;
+  padding-bottom: 2em;
+  align-items: center;
+}
+
+.Card {
+  padding-top: 1em;
+  display: grid;            /* new */
+  align-items: center;      /* new */
+  justify-items: center;
+}
+
+.headwrapper {
+  margin-left: -15em;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+
+.CardTitle {
+  font-size: 22px;
+  padding-left: 0.3em;
+  color: #0f184b;
+}
+
+.Icon {
+  width: 2.4em;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin-top: -1.5em;
+  color: #98a7ff;
+  width: 22em;
+}
+
+.descriptionTitle {
+  padding-right: 4em;
+}
+
+.descriptionCount {
+  margin-left: auto;
+  margin-right: 0;
+}

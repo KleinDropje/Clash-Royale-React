@@ -1,0 +1,120 @@
+.Nav {
+  background-color: #1d1e5a;
+  height: 3.5em;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.menu-right a {
+  margin-right: 4em;
+}
+
+.menu-left {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.SideMenuLogo {
+  margin-left: 3.5em;
+  width: 13%;
+  max-width: 256px;
+  min-width: 24px;
+}
+
+.SideMenuLogo[spin="1"] {
+  animation: spin 1s;
+}
+
+.SideMenuLogo[spin="2"] {
+  animation: spin2 1s;
+}
+
+.sidebarbackground[show="1"] {
+  width: 22.5%;
+}
+
+.sidebarbackground[show="2"] {
+  width: 0%;
+}
+
+.sidebarbackground {
+  position: relative;
+  background-color: #1d1e5a;
+  margin-top: 58em;
+  padding: 0;
+  width: 0%;
+  transition: 1.8s;
+  height: 53.8em;
+}
+
+
+.linkwrapper {
+  transition:  all 1s ease;
+}
+
+.sidebtn {
+  display: block;
+  text-decoration: none;
+  color: #98A7FF;
+  padding-top: 2em;
+  min-width: 200px;
+}
+
+.linkwrapper[show="1"] {
+  transform: translateX(22.5%);
+  visibility: visible;
+}
+
+.linkwrapper[show="0"] {
+  transform: translateX(-12.5em);
+  visibility: hidden;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.SideMenuTitle {
+  color: #acb8ff;
+  text-decoration: none;
+  margin-left: 0.2em;
+  font-size: 0.9em;
+}
+
+.loginbutton {
+  white-space: nowrap;
+  text-decoration: none;
+  color: #acb8ff;
+  font-size: 0.8em;
+  resize: none;
+}
+
+.registerbutton {
+  text-decoration: none;
+  color: #d2d3f1;
+  background-color: #4055d0;
+  border-radius: 7px;
+  border: none;
+  padding: 0.6em 0.8em;
+  font-size: 0.8em;
+  font-family: Supercell;
+  margin-right: 3.5em;
+}

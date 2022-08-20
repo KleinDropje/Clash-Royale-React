@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.background {
+    background-color: #0D064F;
+    border-radius: 9px;
+    width: 30%;
+}
+
+.title {
+    position: relative;
+    color: #ACB8FF;
+    font-size: 15px;
+    margin-top: 1.5em;
+}
+
+.list {
+    list-style: none;
+    padding: 0%;
+    color: #ACB8FF;
+    padding-bottom: 1em;
+}
+
+.list li {
+    padding-top: 1em;
+    font-size: 14px;
+}
